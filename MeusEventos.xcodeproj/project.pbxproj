@@ -15,6 +15,11 @@
 		AABCCFCB26C43D8C000905D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABCCFC926C43D8C000905D5 /* LaunchScreen.storyboard */; };
 		AABCCFD626C43D8C000905D5 /* MeusEventosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABCCFD526C43D8C000905D5 /* MeusEventosTests.swift */; };
 		AABCCFE126C43D8C000905D5 /* MeusEventosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABCCFE026C43D8C000905D5 /* MeusEventosUITests.swift */; };
+		AABCCFF726C43F54000905D5 /* CapaEvento.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABCCFF626C43F54000905D5 /* CapaEvento.xib */; };
+		AABCCFFC26C43F94000905D5 /* CapaEvento.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABCCFFB26C43F94000905D5 /* CapaEvento.swift */; };
+		AABCD00126C45804000905D5 /* foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AABCD00026C45803000905D5 /* foto.jpg */; };
+		AABCD00926C458DC000905D5 /* animacao.gif in Resources */ = {isa = PBXBuildFile; fileRef = AABCD00826C458DC000905D5 /* animacao.gif */; };
+		AABCD00E26C4590A000905D5 /* sax.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AABCD00D26C4590A000905D5 /* sax.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		AABCCFDC26C43D8C000905D5 /* MeusEventosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeusEventosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABCCFE026C43D8C000905D5 /* MeusEventosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeusEventosUITests.swift; sourceTree = "<group>"; };
 		AABCCFE226C43D8C000905D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABCCFF626C43F54000905D5 /* CapaEvento.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CapaEvento.xib; sourceTree = "<group>"; };
+		AABCCFFB26C43F94000905D5 /* CapaEvento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapaEvento.swift; sourceTree = "<group>"; };
+		AABCD00026C45803000905D5 /* foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foto.jpg; sourceTree = "<group>"; };
+		AABCD00826C458DC000905D5 /* animacao.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animacao.gif; sourceTree = "<group>"; };
+		AABCD00D26C4590A000905D5 /* sax.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sax.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,13 @@
 		AABCCFBD26C43D89000905D5 /* MeusEventos */ = {
 			isa = PBXGroup;
 			children = (
+				AABCCFF426C43EEF000905D5 /* Componentes */,
 				AABCCFBE26C43D8A000905D5 /* AppDelegate.swift */,
+				AABCD00026C45803000905D5 /* foto.jpg */,
 				AABCCFC026C43D8A000905D5 /* SceneDelegate.swift */,
 				AABCCFC226C43D8A000905D5 /* ViewController.swift */,
+				AABCD00D26C4590A000905D5 /* sax.jpeg */,
+				AABCD00826C458DC000905D5 /* animacao.gif */,
 				AABCCFC426C43D8A000905D5 /* Main.storyboard */,
 				AABCCFC726C43D8C000905D5 /* Assets.xcassets */,
 				AABCCFC926C43D8C000905D5 /* LaunchScreen.storyboard */,
@@ -126,6 +140,23 @@
 				AABCCFE226C43D8C000905D5 /* Info.plist */,
 			);
 			path = MeusEventosUITests;
+			sourceTree = "<group>";
+		};
+		AABCCFF426C43EEF000905D5 /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				AABCCFF526C43F01000905D5 /* CapaEvento */,
+			);
+			path = Componentes;
+			sourceTree = "<group>";
+		};
+		AABCCFF526C43F01000905D5 /* CapaEvento */ = {
+			isa = PBXGroup;
+			children = (
+				AABCCFF626C43F54000905D5 /* CapaEvento.xib */,
+				AABCCFFB26C43F94000905D5 /* CapaEvento.swift */,
+			);
+			path = CapaEvento;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +262,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AABCD00E26C4590A000905D5 /* sax.jpeg in Resources */,
 				AABCCFCB26C43D8C000905D5 /* LaunchScreen.storyboard in Resources */,
+				AABCCFF726C43F54000905D5 /* CapaEvento.xib in Resources */,
 				AABCCFC826C43D8C000905D5 /* Assets.xcassets in Resources */,
 				AABCCFC626C43D8A000905D5 /* Main.storyboard in Resources */,
+				AABCD00126C45804000905D5 /* foto.jpg in Resources */,
+				AABCD00926C458DC000905D5 /* animacao.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AABCCFC326C43D8A000905D5 /* ViewController.swift in Sources */,
+				AABCCFFC26C43F94000905D5 /* CapaEvento.swift in Sources */,
 				AABCCFBF26C43D8A000905D5 /* AppDelegate.swift in Sources */,
 				AABCCFC126C43D8A000905D5 /* SceneDelegate.swift in Sources */,
 			);
