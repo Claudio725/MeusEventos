@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,30 +16,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cbm-T8-Owq" customClass="CapaEvento" customModule="MeusEventos" customModuleProvider="target">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="cbm-T8-Owq" customClass="CapaEvento" customModule="MeusEventos" customModuleProvider="target">
+                                <rect key="frame" x="20" y="194" width="374" height="337"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="imagem_p">
-                                        <imageReference key="value" image="sax.jpeg" symbolScale="large"/>
-                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="titulo" value="Internet"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="imagem_p" value="sax.jpeg"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="cbm-T8-Owq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="822-nf-7oh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cbm-T8-Owq" secondAttribute="bottom" constant="350" id="Hh8-iM-vCW"/>
-                            <constraint firstItem="cbm-T8-Owq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="V9z-GH-Fn0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cbm-T8-Owq" secondAttribute="trailing" constant="87" id="YF3-rf-v38"/>
+                            <constraint firstItem="cbm-T8-Owq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="822-nf-7oh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cbm-T8-Owq" secondAttribute="bottom" constant="331" id="Hh8-iM-vCW"/>
+                            <constraint firstItem="cbm-T8-Owq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="V9z-GH-Fn0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cbm-T8-Owq" secondAttribute="trailing" constant="20" id="YF3-rf-v38"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-45" y="64"/>
+            <point key="canvasLocation" x="-46.376811594202906" y="63.616071428571423"/>
         </scene>
     </scenes>
     <resources>
